@@ -1,38 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Shopping Cart</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="erics-commerce.html">Home</a></li>
-        <li><a href="shop.html">Shop</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="cart.html"><img src="shopping-cart.png"></a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <h1>Cart Page</h1>
+<html>
+  <head>
+    <title>My E-commerce Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src="myscripts.js" async></script>
+    </head>
     <body>
-      <table>
-          <thead>
-              <tr>
-                  <th>Title</th>
-                  <th>Price</th>
-                  <th>Qty</th>
-              </tr>
-          </thead>
-          <tbody id="tbody">
-  
-          </tbody>
-      </table>
-  
-  </body>
-  <script src="myscripts.js"></script>
-  </html>
+        <header class="main-header">
+          <nav>
+            <ul>
+              <li><a href="erics-commerce.html">Home</a></li>
+              <li><a href="shop.html">Shop</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="cart.html"><img src="shopping-cart.png"></a></li>
+            </ul>
+          </nav>
+        </header>
+        <main>
+        <section class="featured">
+            <h2 class="section-header">My Products</h2>
+                <div class="product">
+                    <h3><span class="shop-item-title">Travel Pants</span></h3>
+                    <img class="shop-item-image" src="product1.jpg" alt="Product 1">
+                    <div class="shop-item-details">
+                        <p><span class="shop-item-price">$12.99</span></p>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="product">
+                    <h3><span class="shop-item-title">Denim</span></h3>
+                    <img class="shop-item-image" src="product2.jpg" alt="Product 2">
+                    <div class="shop-item-details">
+                        <p><span class="shop-item-price">$12.99</span></p>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="product">
+                  <h3><span class="shop-item-title">Vintage Tees and Sweaters</span></h3>
+                  <img class="shop-item-image" src="product3.jpg" alt="Product 3">
+                  <div class="shop-item-details">
+                      <p><span class="shop-item-price">$12.99</span></p>
+                      <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                  </div>
+              </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Album 4</span>
+                    <img class="shop-item-image" src="Images/Album 4.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$19.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">MERCH</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">T-Shirt</span>
+                    <img class="shop-item-image" src="Images/Shirt.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$19.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Coffee Cup</span>
+                    <img class="shop-item-image" src="Images/Cofee.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$6.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        </section>
+      </main>
+    </body>
+</html>

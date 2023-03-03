@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
-    <title>My E-Commerce Website - Home</title>
+    <title>My E-commerce Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
-</head>
+    <script src="myscripts.js" async></script>
+    </head>
 <body>
   <header>
-    <script src="myscripts.js"></script>
     <nav>
       <ul>
         <li><a href="erics-commerce.html">Home</a></li>
@@ -18,42 +19,52 @@
       </ul>
     </nav>
   </header>
-  <body>
-    <div class="toolbar">
-        <h1 class="brand">Shop</h1>
-        <p>
-            <a href="cart.html">
-                Cart items:
-                <span id="count">0</span>, Price:
-                <span id="sum">0</span>
-            </a>
-        </p>
-    </div>
-
-    <div class="products">
-        <div class="product">
-            <h3>Procut one</h3>
-            <p>Price: 2000</p>
-            <button data-id="1" data-price="2000" data-title="Product one">Add to cart</button>
-        </div>
-
-        <div class="product">
-            <h3>Procut two</h3>
-            <p>Price: 3000</p>
-            <button data-id="2" data-price="3000" data-title="Product two">Add to cart</button>
-        </div>
-
-        <div class="product">
-            <h3>Procut three</h3>
-            <p>Price: 6000</p>
-            <button data-id="3" data-price="6000" data-title="Product three">Add to cart</button>
-        </div>
-
-        <div class="product">
-            <h3>Procut four</h3>
-            <p>Price: 1000</p>
-            <button data-id="4" data-price="1000" data-title="Product four">Add to cart</button>
-        </div>
-    </div>
+  <main>
+    <section id="featured">
+      <h2>Featured Products</h2>
+      <div class="product">
+        <img src="product1.jpg" alt="Product 1">
+        <h3>Product 1 Name</h3>
+        <p>$49.99</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="product2.jpg" alt="Product 2">
+        <h3>Product 2 Name</h3>
+        <p>$39.99</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="product3.jpg" alt="Product 3">
+        <h3>Product 3 Name</h3>
+        <p>$29.99</p>
+        <button>Add to Cart</button>
+      </div>
+    </section>
+    <section id="products">
+      <h2>All Products</h2>
+      <div class="product">
+        <img src="product4.jpg" alt="Product 4">
+        <h3>Product 4 Name</h3>
+        <p>$19.99</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="product5.jpg" alt="Product 5">
+        <h3>Product 5 Name</h3>
+        <p>$9.99</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="product6.jpg" alt="Product 6">
+        <h3>Product 6 Name</h3>
+        <p>$14.99</p>
+        <button>Add to Cart</button>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 My E-commerce Website</p>
+  </footer>
 </body>
 </html>
