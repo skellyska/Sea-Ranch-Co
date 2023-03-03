@@ -228,4 +228,11 @@
   .btn-purchase:hover {
     background-color: #218838;
   }
+  .about-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
   
