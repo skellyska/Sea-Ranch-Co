@@ -1,0 +1,169 @@
+/* Reset default browser styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set default font styles */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Style the header and navigation */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  #hero {
+    background-image: url(/Users/ericskelly/Documents/GitHub/sea-ranch-co/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  main {
+    text-align: center;
+  }
+
+  main h1 {
+    font-size: 50px;
+  }
+  
+  main button{
+    background-color: #333;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+  }
+
+  /* Style the featured products section */
+  #featured {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #featured h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .product {
+    display: inline-block;
+    margin: 0 20px;
+    text-align: left;
+    vertical-align: top;
+    width: 300px;
+  }
+  
+  .product img {
+    display: block;
+    height: 300px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .product h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .product p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .product button {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+  }
+  
+  /* Style the all products section */
+  #products {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #products h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+
+  .cart-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .cart-item img {
+    max-width: 100px;
+    margin-right: 10px;
+  }
+  
+  .cart-item h2 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .cart-item p {
+    margin: 0;
+    font-size: 14px;
+    color: #999;
+  }
+  
+  .cart-total {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
+  .checkout-button {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  .checkout-button:hover {
+    background-color: #53130e;
+  }
