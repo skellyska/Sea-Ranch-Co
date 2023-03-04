@@ -204,7 +204,7 @@
     color: #fff;
     padding: 10px 20px;
     text-transform: uppercase;
-    cursor: grab;
+    cursor: pointer;
     transition: background-color 0.3s;
   }
   
