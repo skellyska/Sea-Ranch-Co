@@ -59,6 +59,11 @@
     color: #fff;
     padding: 10px 20px;
     text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  main button:hover{
+    color: #e04f4b;
   }
 
   /* Style the featured products section */
