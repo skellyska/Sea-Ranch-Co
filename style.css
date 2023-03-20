@@ -223,10 +223,6 @@
     color: #fff;
   }
   
-  .btn-primary:hover {
-    background-color: #e04f4b;
-  }
-  
   .btn-purchase {
     margin-top: 30px;
     font-weight: bold;
